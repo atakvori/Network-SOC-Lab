@@ -16,10 +16,11 @@ You have been contracted by a firm, Morgan Maxwell Real Estate, to overhaul and 
 - To gain experience using various tools involved in networking and cybersecurity.
 
 ### Tools and Services Used
-#### Network
+#### Network/General
 - nmap
 - ifconfig
 - ssh
+- Filezilla
 #### OS
 - Kali
 - Windows
@@ -64,10 +65,10 @@ You have been contracted by a firm, Morgan Maxwell Real Estate, to overhaul and 
 - Used nmap to perform a synstealth scan on the LAN network in order to test if the IDS is working.
 ### 4. Proxy Configuration for Web Filtering
 - Created then installed a Trusted Certificate Authority on the System
-- Enable and configure a transparent web proxy with a firewall port forward rule
-- Configure the web filtering features of the proxy including a blacklist imported from a URL
-- Download ACLs for the proxy
-- Setup and reposition the firewall and its rules
+- Enabled and configured a transparent web proxy with a firewall port forward rule
+- Configured the web filtering features of the proxy including a blacklist imported from a URL
+- Downloaded ACLs for the proxy
+- Setup and repositioned the firewall and its rules
 - Tested the web filtering using a browser
 ### 5. Firewall High Availability and CARP, pfSync Configuration
 - Cloned the OPNsense firewall VM in VirtualBox
@@ -88,7 +89,7 @@ You have been contracted by a firm, Morgan Maxwell Real Estate, to overhaul and 
 - Configured DNS settings including DNS servers and allowing gateway switching
 - Edited firewall rules to allow for the use of the gateway group, and added a new pass rule for the LAN network
 - Used traceroute to test out the Multi-WAN setup after simulating a failure of WAN1
-### 7. Unlocking Next Generation Firewall Features using Zenarmor
+### 7. Enabling Next Generation Firewall Features using Zenarmor
 - Installed NG plugins (Zenarmor) on OPNsense
 - Continued through the installation wizard
 - Updated to the latest version
